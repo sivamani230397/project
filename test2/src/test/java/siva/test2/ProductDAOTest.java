@@ -24,33 +24,33 @@ public class ProductDAOTest {
 		context.refresh();
 	    productDAO=(ProductDAO)context.getBean("ProductDAO");
 	}
-    //@Ignore
+    
 	@Test
 	public void addProductTest()
 	{
 		Product product=new Product();
-		product.setProductName("MAC matte-lipstick");
-		product.setProductDesc("All MAC lipstick products");
-		product.setQuantity(7);
-		product.setPrice(950);
+		product.setProductName("Yamaha");
+		product.setProductDesc("R15 is Yamaha Company");
+		product.setQuantity(8);
+		product.setPrice(135000);
 		product.setSupplierId(3);
 		product.getCategoryId();
 		assertTrue("Problem in adding Products",productDAO.addProduct(product));
 		}
-	//@Ignore
+	
     @Test
     public void updateProductTest()
     {
     	Product product=productDAO.getProduct(1);
-    	product.setProductName("Kilye");
-        product.setProductDesc("All Kylie products");
+    	product.setProductName("Android Phone");
+        product.setProductDesc("All 4G mobile is Android Phone");
         product.setQuantity(4);
-        product.setPrice(1600);
+        product.setPrice(9400);
         product.setSupplierId(3);
         product.getCategoryId();
         assertTrue("Problem in updating the Products:",productDAO.updateProduct(product));
     }
-    @Ignore
+    
     @Test
     public void deleteProductTest()
     {
@@ -58,7 +58,7 @@ public class ProductDAOTest {
         assertTrue("Problem in deleting the Product:",productDAO.deleteProduct(product));
     }
     
-    @Ignore
+    
     @Test
     public void listProductsTest()
     {

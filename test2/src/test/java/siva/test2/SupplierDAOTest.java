@@ -19,7 +19,7 @@ public class SupplierDAOTest {
 		public static void initialize()
 		{
 			AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext();
-			context.scan("com.sush");
+			context.scan("siva");
 			context.refresh();
 		    supplierDAO=(SupplierDAO)context.getBean("SupplierDAO");
 		}
@@ -29,10 +29,10 @@ public class SupplierDAOTest {
 	    public void addSupplierTest()
 	    {
 	    	Supplier supplier=new Supplier();
-	    	supplier.setSupplierName("Lakme");
-	        supplier.setAddress("Newyork");
-	        supplier.setSupplierName("Revlon");
-	        supplier.setAddress("Los Angles");
+	    	supplier.setSupplierName("Akash");
+	        supplier.setAddress("America");
+	        supplier.setSupplierName("Manish");
+	        supplier.setAddress("India");
 	        assertTrue("Problem in Adding Supplier:",supplierDAO.addSupplier(supplier));
 	    }
 		@Ignore
@@ -40,8 +40,8 @@ public class SupplierDAOTest {
 	    public void updateSupplierTest()
 	    {
 	    	Supplier supplier=supplierDAO.getSupplier(3);
-	    	supplier.setSupplierName("ColorBar");
-	        supplier.setAddress("Manhattan");
+	    	supplier.setSupplierName("Manish");
+	        supplier.setAddress("India");
 	        assertTrue("Problem in updating the Supplier:",supplierDAO.updateSupplier(supplier));
 	    }
 	    @Ignore
@@ -49,7 +49,7 @@ public class SupplierDAOTest {
 	    public void deleteSupplierTest()
 	    {
 	    	Supplier supplier=supplierDAO.getSupplier(2);
-	        supplier.setAddress("Calfornia");
+	        supplier.setAddress("England");
 	        assertTrue("Problem in deleting the Supplier:",supplierDAO.deleteSupplier(supplier));
 	    }
 	    
