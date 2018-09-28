@@ -48,6 +48,7 @@ public class CategoryDAOTest {
     	Category category=categoryDAO.getCategory(2);
         category.setCategoryDesc("All Revlon make-up products");
         assertTrue("Problem in deleting the Category:",categoryDAO.deleteCategory(category));
+
     }
     
     //@Ignore

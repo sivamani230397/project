@@ -10,7 +10,10 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+
+import siva.DAO.CategoryDAO;
 import siva.DAO.SupplierDAO;
+import siva.model.Category;
 import siva.model.Supplier;
 
 public class SupplierDAOTest {

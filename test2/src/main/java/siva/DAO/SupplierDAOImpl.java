@@ -1,15 +1,19 @@
 package siva.DAO;
 
 import java.util.List;
-import java.util.function.Supplier;
-
-import javax.management.Query;
-
-import org.h2.engine.Session;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
-public class SupplierDAOImpl  
+import siva.model.Supplier;
+@Repository("SupplierDAO")
+@Transactional
+
+
+public class SupplierDAOImpl 
 {
   @Autowired
   SessionFactory sessionFactory;
