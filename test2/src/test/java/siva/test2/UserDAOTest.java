@@ -1,6 +1,6 @@
 package siva.test2;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import org.junit.BeforeClass;
 import org.junit.Ignore;
@@ -26,8 +26,8 @@ public class UserDAOTest {
     {
     	User user=new User();
     	user.setUsername("Manish");
-        user.setPassword("rama");
-        user.setCustomerName("Ashok");
+        user.setPassword("mani");
+        user.setCustomerName("Praveen");
         user.setMobileNumber("8667226314");
         user.setEmailId("Manish30@gmail.com");
         user.setRole("Admin");
@@ -40,7 +40,7 @@ public class UserDAOTest {
     {
     	User user=userDAO.getUser("Manish");
     	user.setUsername("Akash");
-        user.setPassword("chintoo");
+        user.setPassword("pavan");
         user.setCustomerName("Arjun");
         user.setMobileNumber("98414013");
         user.setEmailId("Arjun@gmail.com");

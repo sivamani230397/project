@@ -1,15 +1,21 @@
 package siva.DAO;
 
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import siva.model.User;
+@Repository("UserDAO")
+@Transactional
+
 
 public class UserDAOImpl implements UserDAO
 {
 	@Autowired
 	SessionFactory sessionFactory;
-
+	
 	public boolean registerUser(User user) {
 		try
 		{
@@ -39,7 +45,7 @@ public class UserDAOImpl implements UserDAO
 	}
 
 	public User getUser(String username) {
-		org.hibernate.Session session=sessionFactory.openSession();
+		Session session=sessionFactory.openSession();
 		User user=session.get(User.class,username);
 		session.close();
 		return user;
