@@ -1,159 +1,174 @@
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://maven.apache.org/POM/4.0.0">
 
-<modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
 
-<groupId>siva</groupId>
+	<groupId>siva</groupId>
 
-<artifactId>test2</artifactId>
+	<artifactId>test2</artifactId>
 
-<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
-<packaging>jar</packaging>
+	<packaging>jar</packaging>
 
-<name>test2</name>
+	<name>test2</name>
 
-<url>http://maven.apache.org</url>
+	<url>http://maven.apache.org</url>
 
 
-<properties>
+	<properties>
 
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-</properties>
+	</properties>
 
 
-<dependencies>
+	<dependencies>
 
 
-<dependency>
+		<dependency>
 
-<groupId>junit</groupId>
+			<groupId>junit</groupId>
 
-<artifactId>junit</artifactId>
+			<artifactId>junit</artifactId>
 
-<version>4.12</version>
+			<version>4.12</version>
 
-<scope>test</scope>
+			<scope>test</scope>
 
-</dependency>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 
 
 
-<dependency>
+		<dependency>
 
-<groupId>org.springframework</groupId>
+			<groupId>org.springframework</groupId>
 
-<artifactId>spring-context</artifactId>
+			<artifactId>spring-context</artifactId>
 
-<version>4.3.18.RELEASE</version>
+			<version>4.3.18.RELEASE</version>
 
-</dependency>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 
 
 
-<dependency>
+		<dependency>
 
-<groupId>org.springframework</groupId>
+			<groupId>org.springframework</groupId>
 
-<artifactId>spring-orm</artifactId>
+			<artifactId>spring-orm</artifactId>
 
-<version>4.3.18.RELEASE</version>
+			<version>4.3.18.RELEASE</version>
 
-</dependency>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
 
 
 
-<dependency>
+		<dependency>
 
-<groupId>org.springframework</groupId>
+			<groupId>org.springframework</groupId>
 
-<artifactId>spring-core</artifactId>
+			<artifactId>spring-core</artifactId>
 
-<version>4.3.18.RELEASE</version>
+			<version>4.3.18.RELEASE</version>
 
-</dependency>
+		</dependency>
 
 
-<dependency>
+		<dependency>
 
-<groupId>org.springframework</groupId>
+			<groupId>org.springframework</groupId>
 
-<artifactId>spring-webmvc</artifactId>
+			<artifactId>spring-webmvc</artifactId>
 
-<version>4.3.18.RELEASE</version>
+			<version>4.3.18.RELEASE</version>
 
-</dependency>
+		</dependency>
 
 
-<dependency>
+		<dependency>
 
-<groupId>org.springframework</groupId>
+			<groupId>org.springframework</groupId>
 
-<artifactId>spring-web</artifactId>
+			<artifactId>spring-web</artifactId>
 
-<version>4.3.18.RELEASE</version>
+			<version>4.3.18.RELEASE</version>
 
-</dependency>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 
 
-<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 
 
 
-<dependency>
+		<dependency>
 
-<groupId>org.hibernate</groupId>
+			<groupId>org.hibernate</groupId>
 
-<artifactId>hibernate-core</artifactId>
+			<artifactId>hibernate-core</artifactId>
 
-<version>5.2.12.Final</version>
+			<version>5.2.12.Final</version>
 
-</dependency>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-entitymanager</artifactId>
-    <version>5.2.12.Final</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>5.2.12.Final</version>
+		</dependency>
 
 
-<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 
 
 
-<dependency>
+		<dependency>
 
-<groupId>com.h2database</groupId>
+			<groupId>com.h2database</groupId>
 
-<artifactId>h2</artifactId>
+			<artifactId>h2</artifactId>
 
-<version>1.4.197</version>
+			<version>1.4.197</version>
 
-</dependency>
+		</dependency>
 
 
-<dependency>
+		<dependency>
 
-<groupId>commons-dbcp</groupId>
+			<groupId>commons-dbcp</groupId>
 
-<artifactId>commons-dbcp</artifactId>
+			<artifactId>commons-dbcp</artifactId>
 
-<version>1.4</version>
+			<version>1.4</version>
 
-</dependency>
+		</dependency>
 
-</dependencies>
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+	</dependencies>
 
-<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-clean-plugin <build><pluginManagement><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-clean-plugin</artifactId><version>3.0.0</version></plugin></pluginManagement> </build> -->
+	<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-clean-plugin 
+		<build><pluginManagement><plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-clean-plugin</artifactId><version>3.0.0</version></plugin></pluginManagement> 
+		</build> -->
 
 
 </project>

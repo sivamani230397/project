@@ -12,6 +12,7 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+import siva.model.CartItem;
 import siva.model.Category;
 import siva.model.Product;
 import siva.model.Supplier;
@@ -45,7 +46,7 @@ public SessionFactory getSessionFactory()
    LocalSessionFactoryBuilder localSessionFactory=new LocalSessionFactoryBuilder(getH2DataSource());
    localSessionFactory.addProperties(hibernateProperties);
    
-   Class classes[] = new Class[] {Category.class,Product.class,User.class,Supplier.class};
+   Class classes[] = new Class[] {Category.class,Product.class,User.class,Supplier.class, CartItem.class};
    
    localSessionFactory.addAnnotatedClasses(classes);
    

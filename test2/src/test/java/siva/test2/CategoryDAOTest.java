@@ -37,20 +37,18 @@ public class CategoryDAOTest {
     public void updateCategoryTest()
     {
     	Category category=categoryDAO.getCategory(3);
-    	category.setCategoryName("ColorBar");
+    	category.setCategoryName("SivaColorBar");
         category.setCategoryDesc("All ColorBar products");
         assertTrue("Problem in updating the Category:",categoryDAO.updateCategory(category));
     }
   //  @Ignore
     @Test
     public void deleteCategoryTest()
-    {
-    	Category category=categoryDAO.getCategory(2);
-        category.setCategoryDesc("All Revlon make-up products");
-        assertTrue("Problem in deleting the Category:",categoryDAO.deleteCategory(category));
-
-    }
-    
+	{
+		Category category=categoryDAO.getCategory(39);
+		assertTrue("Probem in deleting the Category",categoryDAO.deleteCategory(category));
+	}
+	  
     //@Ignore
     @Test
     public void listCategoriesTest()

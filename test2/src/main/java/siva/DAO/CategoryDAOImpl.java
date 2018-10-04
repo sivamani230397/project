@@ -21,17 +21,17 @@ public class CategoryDAOImpl implements CategoryDAO
 		public boolean addCategory(Category category) {
 			try
 			{
-				System.out.println("Entering add Cat");
+				System.out.println("Entering add Category");
 				Session session = sessionFactory.getCurrentSession();
-				//System.out.println("Session : "+ (session == null)+" => " + session);
+				
 				session.save(category);
-				System.out.println("Inserted cat successfully");
+				System.out.println("Inserted category successfully");
 				//session.close();
 			return true;
 			}
 			catch(Exception e)
 			{
-				System.out.println("Insert cat failed");
+				System.out.println("Insert category failed");
 			return false;	
 			}
 		}

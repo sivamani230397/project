@@ -32,7 +32,7 @@ public class ProductDAOTest {
 		product.setProductName("Yamaha");
 		product.setProductDesc("R15 is Yamaha Company");
 		product.setQuantity(8);
-		product.setPrice(135000);
+		product.setPrice(13500);
 		product.setSupplierId(3);
 		product.getCategoryId();
 		assertTrue("Problem in adding Products",productDAO.addProduct(product));
