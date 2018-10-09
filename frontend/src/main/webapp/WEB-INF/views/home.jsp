@@ -21,7 +21,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="first-slide home-image" src="resources/images/rubberDuck.jpg" alt="first slide" >
+                    <img class="first-slide home-image" src="resources/images/honda-cbr.png" alt="first slide" >
                     <div class="container">
                         <div class="carousel-caption">
                             <h1></h1>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img class="second-slide home-image" src="resources/images/image2.jpg" alt="Second slide">
+                    <img class="second-slide home-image" src="resources/images/yamaha-r15-v3.png" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1></h1>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img class="third-slide home-image " src="resources/images/image3.jpg" alt="Third slide"height="2000px" width="1500px">
+                    <img class="third-slide home-image " src="resources/images/Fz.png" alt="Third slide"height="2000px" width="1500px">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1></h1>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                  <div class="item">
-                    <img class="forth-slide home-image " src="resources/images/image4.jpg" alt="forth slide">
+                    <img class="forth-slide home-image " src="resources/images/Rs200.png" alt="forth slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1></h1>
