@@ -18,7 +18,8 @@
 	});
 </script>
 </head>
-<body>
+
+<body bgcolor="#654321">
 <div class="container">
 
 <table class ="table table-striped">

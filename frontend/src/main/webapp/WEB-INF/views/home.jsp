@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+
 <body>
 
 <center>
@@ -39,7 +40,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img class="third-slide home-image " src="resources/images/Fz.png" alt="Third slide"height="2000px" width="1500px">
+                    <img class="third-slide home-image " src="resources/images/ktm.png" alt="Third slide" width="600" height="400">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1></h1>
@@ -48,7 +49,7 @@
                     </div>
                 </div>
                  <div class="item">
-                    <img class="forth-slide home-image " src="resources/images/Rs200.png" alt="forth slide">
+                    <img class="forth-slide home-image " src="resources/images/Rs200.png" alt="forth slide" height="400">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1></h1>
@@ -65,45 +66,10 @@
                 <span class="glyphicon glyphicon-chevron-right" ></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div><!-- /.carousel -->        
+        </div><!-- carousel end -->        
         
         
         
-        
-        <div class="col">
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="">
-      <div class="caption">
-          <p>Explore Sports</p>
-        </div>
-        <img src="resources/images/pic1.jpg" alt="logo1" height="600px" width="600px">
-       </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="">
-      <div class="caption">
-          <p>Upto 30% Discount</p>
-        </div>
-        <img src="resources/images/pic2.jpg" alt="logo2" height="500px" width="500px">
-        
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-      <a href="">
-       <div class="caption">
-          <p>Buy with Us</p>
-        </div>
-        <img src="resources/images/pic3.jpg" alt="logo3" height="500px" width="500px" >
-       
-      </a>
-    </div>
-  </div>
-</div>
          
 </center>
 <%@ include file ="footer.jsp"%>

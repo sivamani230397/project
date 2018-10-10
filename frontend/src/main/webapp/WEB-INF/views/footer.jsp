@@ -12,9 +12,9 @@
 </head>
 <body>
 <footer>     
-<li class="glyphicon glyphicon-map-marker" style="width:30px"></li>20/10,Nugambakkam,Chennai-100 <br>
-<li class="glyphicon glyphicon-phone" style="width:30px"></li> Phone: +044 2556 1111<br>
-<li class="glyphicon glyphicon-envelope" style="width:30px"> </li> Email: sports@mail.com<br> 
+<li class="glyphicon glyphicon-map-marker" style="width:30px"></li>19,Avadi,Chennai-71 <br>
+<li class="glyphicon glyphicon-phone" style="width:30px"></li> Phone: 8667226314<br>
+<li class="glyphicon glyphicon-envelope" style="width:30px"> </li> Email: manian489@gmail.com<br> 
 </footer>
 </body>
 </html>

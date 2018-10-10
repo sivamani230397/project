@@ -30,7 +30,9 @@
  
  <title>sports</title>
 </head>
-<body>
+
+<body style="background-color:#ABCDEF">
+
 <nav class="navbar navbar-default">
 		<div class="container-fluid">
 		<button type="button" class="navbar-toggle collapsed" 
