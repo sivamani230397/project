@@ -44,9 +44,12 @@ public class CartItemController {
 		Customer customer=user.getCustomer();
 		Cart cart=customer.getCart();
 		List<CartItem> cartItems=cart.getCartItems();
-		for(CartItem cartItem:cartItems) {
-			if(cartItem.getProduct().getId()==id) {
-				cartItem.setQuantity(quantity);
+		for(CartItem cartItem:cartItems)
+		{
+			if(cartItem.getProduct().getId()==id)
+			{
+				int newQuantity = cartItem.getQuantity() + quantity;
+				cartItem.setQuantity(newQuantity);
 				cartItem.setTotalPrice(cartItem.getQuantity() * product.getPrice() );
 				cartItemDao.saveOrUpdateCartItem(cartItem);
 				return "redirect:/cart/getcart";
